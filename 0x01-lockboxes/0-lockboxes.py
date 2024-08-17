@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Determines id all boxes are unlocked
+"""
+
 
 def canUnlockAll(boxes):
     """
