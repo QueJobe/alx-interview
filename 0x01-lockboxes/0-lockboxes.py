@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-"""
-Determine if all boxes can be unlocked
-"""
-
 
 def canUnlockAll(boxes):
     """
@@ -11,6 +7,7 @@ def canUnlockAll(boxes):
     :param boxes: List of lists, where each list contains keys to other boxes
     :return: True if all boxes can be unlocked, otherwise False
     """
+
     n = len(boxes)
     unlocked = [False] * n
     unlocked[0] = True
@@ -25,3 +22,4 @@ def canUnlockAll(boxes):
                 keys.append(key)
 
     return (all(unlocked))
+
