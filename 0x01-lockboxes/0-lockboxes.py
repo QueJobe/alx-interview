@@ -6,7 +6,10 @@ Determine if all boxes can be unlocked
 
 def canUnlockAll(boxes):
     """
-    function to check if boxes can be unlocked
+    Determines if all boxes can be unlocked.
+
+    :param boxes: List of lists, where each list contains keys to other boxes
+    :return: True if all boxes can be unlocked, otherwise False
     """
     n = len(boxes)
     unlocked = [False] * n
